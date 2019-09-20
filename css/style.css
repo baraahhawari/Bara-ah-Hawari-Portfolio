@@ -1,45 +1,3 @@
-/* =====================================
-Template Name: Meheraj
-Author Name: Shakil Hossain
-Description: Meheraj is a modern Creative Personal Portfolio Template, you can use this template for your own personal portfolio,CV,Resume purpouse.
-Version:	1.1
-========================================*/   
-
-/*=======================================
-[Table of contents]
-* Reset CSS
-* Header CSS
-	+ Logo
-	+ Main menu
-	+ Social
-	+ Header Extra
-* Personal CSS
-	+ Personal Animate
-	+ Personal Particle
-	+ Personal Slider
-	+ Personal Video Background
-* About Me CSS
-* Service CSS
-* portfolio CSS
-	+ Portfolio Latest
-	+ Portfolio Archive
-	+ Portfolio Single
-* CountDown CSS
-* Timeline CSS
-* Pricing Table CSS
-* Testimonials CSS
-* Blog CSS
-	+ Blog Latest
-	+ Blog Archive
-	+ Blog Sidebar
-	+ Blog Single
-* Call To Action CSS
-* Contact CSS
-* Clients CSS
-* Mail CSS
-* Footer Top CSS
-* Footer CSS
-=========================================*/ 
 
 /*=======================
 	Header CSS
@@ -408,7 +366,7 @@ Version:	1.1
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: url('images/banner-pattern.png');
+	background: url('../images/banner-pattern.png');
 	opacity: 0.5;
 	content: "";
 	z-index: -1;
@@ -825,6 +783,8 @@ Version:	1.1
 	margin-bottom: 20px;
 	font-weight: 300;
 	color: #eee;
+	font-size: 20px;
+	word-spacing: 5px;
 }
 #about-me .about-text p:last-child{
 	margin:0;
@@ -1089,8 +1049,8 @@ Version:	1.1
 	color: #fff;
 	top: 50%;
 	text-align: center;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 20%;
+	padding-right: 20%;
 	opacity: 0;
 	-webkit-transition: all 0.4s ease;
 	-moz-transition: all 0.4s ease;
@@ -1330,7 +1290,7 @@ Version:	1.1
 	CountDown CSS
 =========================*/
 #countdown {
-	background-image: url(images/countdown.jpg);
+	background-image: url(../images/countdown.jpg);
 	background-size: cover;
 	background-position: center center;
 	position: relative;
@@ -2378,7 +2338,7 @@ Version:	1.1
 #call-action {
 	position: relative;
 	overflow: hidden;
-	background-image: url('images/call.jpg');
+	background-image: url('../images/call.jpg');
 	background-size: cover;
 	background-position: center;
 	z-index: 1;
@@ -2582,7 +2542,7 @@ Version:	1.1
 	padding: 200px 0 70px;
 	background: #F8F8F8;
 	border-top: 3px solid;
-	background: url('images/clients-bg.jpg');
+	background: url('../images/clients-bg.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
